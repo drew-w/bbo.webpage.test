@@ -25,7 +25,7 @@
     width: 1000px;
     height: var(--picture-size);
     background-color: var(--dark-green) ;
-    text-align: center;
+    text-align: left;
     color: var(--white);
     align-items: center;
     float: left;
@@ -39,5 +39,18 @@
 .pix {
     width: var(--picture-size);
     height: var(--picture-size);
+}
+
+.divider {
+    height: var(--picture-size);
+    width: 80px;
+    background-color: var(--dark-green);
+}
+
+.game-logo {
+    height: 8%;
+    width: 8%;
+    
+
 }
 
