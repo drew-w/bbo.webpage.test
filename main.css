@@ -44,9 +44,9 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    margin-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 60px;
-    margin-right: 80px;
     border: 1px solid var(--green);
     box-shadow: 5px 10px var(--green);
 }
