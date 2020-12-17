@@ -7,8 +7,38 @@
     --picture-size:200px;
 }
 
+.header-container {
+    width: auto;
+    height: 250px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.title {
+    margin-left: 80px;
+    width: 153x;
+    height: 225px;
+    margin-right: auto;
+}
+
+.web-head {
+    width: 175px;
+    height: 65px;
+    background-color: var(--dark-green);
+    border: 1px solid var(--white);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: var(--white);
+    font-size: large;
+}
+
 .roster-container {
-    width: 100%;
+    width: 1160px;
     height: 200px;
     background-color: var(--black);
     display: flex;
@@ -17,6 +47,8 @@
     margin-left: 80px;
     margin-top: 60px;
     margin-right: 80px;
+    border: 1px solid var(--green);
+    box-shadow: 5px 10px var(--green);
 }
 
 
@@ -28,14 +60,6 @@
     color: var(--turq);
     align-items: center;
     float: left;
-}
-
-.title {
-    font-family: monospace;
-    background-color: var(--black);
-    height: 7.5%;
-    width: 7.5%;
-    margin-left: 80px;
 }
 
 .pix {
@@ -52,6 +76,8 @@
 .game-logo {
     height: 28%;
     width: 28%;
+    vertical-align: middle;
+
 }
 
 .social-links {
@@ -61,13 +87,71 @@
 }
 
 .bio {
-    overflow: scroll;
-    height: 160px;
-    width: 280px;
-    background-color: var(--green);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 150px;
+    width: 270px;
+    background-color: var(--turq);
     color: var(--white);
     justify-self: center;
     align-self: center;
     margin-top: 20px;
+    padding: 5px;
 }
 
+.falcon{
+    position: relative; 
+    top: -25px;
+    left: 60px;
+    width: 170px;
+    height: 225px;
+}
+
+.fox{
+    position: relative; 
+    top: 10px;
+    left: 40px;
+    width: 205px;
+    height: 192px;
+}
+
+.jak{
+    position: relative;
+    top: -5px;
+    left: 60px;
+    width: 161px;
+    height: 200px;
+}
+
+.usec{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    width: 217px;
+    height: 200px;
+}
+
+.peach{
+    position: relative;
+    left: 65px;
+    width: 148px; 
+    height: 197px;
+}
+
+.linne{
+    position: relative;
+    left: 85px;
+    top: 3px;
+    width: 106px;
+    height: 192px;
+}
+
+a:link{
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--white);
+    text-decoration: none;
+}
